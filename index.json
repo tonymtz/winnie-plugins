@@ -1,0 +1,157 @@
+{
+  "schema": 1,
+  "repository": "tonymtz/winnie-plugins",
+  "plugins": [
+    {
+      "id": "genres-picker",
+      "name": "Genres Picker",
+      "author": "Pawapps Team",
+      "version": "1.0.0",
+      "icon": "list",
+      "category": "tag-sources",
+      "description": {
+        "en": "Turns the Genre field from free input into a dropdown with a fixed list of genres.",
+        "es": "Convierte el campo Género de texto libre en una lista desplegable con géneros fijos."
+      },
+      "listed": true,
+      "network": [],
+      "path": "plugins/genres-picker",
+      "files": [
+        {
+          "path": "plugin.json",
+          "sha256": "be7f519bde5d0665acf9db8415b22e36d54094b29787211ab00660cfc6e8f583",
+          "size": 966
+        }
+      ]
+    },
+    {
+      "id": "lrclib-lyrics",
+      "name": "LRCLIB Lyrics",
+      "author": "Pawapps Team",
+      "version": "1.0.0",
+      "icon": "alignLeft",
+      "category": "lyrics",
+      "description": {
+        "en": "Finds lyrics on lrclib.net and saves them as a .lrc (synced) or .txt file next to the audio file.",
+        "es": "Busca la letra en lrclib.net y la guarda como archivo .lrc (sincronizada) o .txt junto al audio."
+      },
+      "listed": true,
+      "network": [
+        "lrclib.net"
+      ],
+      "path": "plugins/lrclib-lyrics",
+      "files": [
+        {
+          "path": "main.js",
+          "sha256": "31ebad8ab6582d97f584d5b98b7c87f786286e969d5a137199025424103d46aa",
+          "size": 3229
+        },
+        {
+          "path": "plugin.json",
+          "sha256": "87f3757f98c087e73fcddeda4064187f5335b3a3a1aae24100eb989e2205c45d",
+          "size": 738
+        }
+      ]
+    },
+    {
+      "id": "musicbrainz-lookup",
+      "name": "MusicBrainz Lookup",
+      "author": "Pawapps Team",
+      "version": "1.0.0",
+      "icon": "wand",
+      "category": "tag-sources",
+      "description": {
+        "en": "Matches the track against MusicBrainz and fills in the tags that are still empty.",
+        "es": "Busca la pista en MusicBrainz y completa las etiquetas que siguen vacías."
+      },
+      "listed": true,
+      "network": [
+        "musicbrainz.org"
+      ],
+      "path": "plugins/musicbrainz-lookup",
+      "files": [
+        {
+          "path": "main.js",
+          "sha256": "013e36f1b3f0d760f5fab9a056553cb06856b42dc497c70ed80b71b8e468f9b3",
+          "size": 5938
+        },
+        {
+          "path": "plugin.json",
+          "sha256": "31c7fab788cf6ccd0ad371e161ca351ac14e092376674c48ad8a8298fa79b724",
+          "size": 695
+        }
+      ]
+    },
+    {
+      "id": "sample-plugin",
+      "name": "Sample Plugin",
+      "author": "Pawapps Team",
+      "version": "1.0.0",
+      "icon": "puzzle",
+      "category": "batch-tools",
+      "description": {
+        "en": "A starting point for plugin authors. Not shown in the plugin manager.",
+        "es": "Un punto de partida para autores de plugins. No aparece en el gestor de plugins."
+      },
+      "listed": false,
+      "network": [],
+      "path": "plugins/sample-plugin",
+      "files": [
+        {
+          "path": "main.js",
+          "sha256": "b8c34cc48c3e9c2376c74095b567ce02205ec9101b47ea51f6435d682c3b247a",
+          "size": 2117
+        },
+        {
+          "path": "plugin.json",
+          "sha256": "9d3a32c8086cbae5e56f9d4f5181e574a05e5651b70deaabb604d978a4ae1dd2",
+          "size": 1284
+        }
+      ]
+    },
+    {
+      "id": "theme-midnight",
+      "name": "Midnight",
+      "author": "Pawapps Team",
+      "version": "1.0.0",
+      "icon": "moon",
+      "category": "themes",
+      "description": {
+        "en": "Deep indigo surfaces with a violet accent, for late-night tagging sessions.",
+        "es": "Superficies índigo profundo con acento violeta, para sesiones de etiquetado nocturnas."
+      },
+      "listed": true,
+      "network": [],
+      "path": "plugins/theme-midnight",
+      "files": [
+        {
+          "path": "plugin.json",
+          "sha256": "5aa7cadd976ee10e597415501358bd15a857275318b70032ef65de0cdccb34e8",
+          "size": 1201
+        }
+      ]
+    },
+    {
+      "id": "theme-paper",
+      "name": "Paper",
+      "author": "Pawapps Team",
+      "version": "1.0.0",
+      "icon": "palette",
+      "category": "themes",
+      "description": {
+        "en": "Warm off-white surfaces with high-contrast ink and a terracotta accent.",
+        "es": "Superficies de blanco cálido con tinta de alto contraste y acento terracota."
+      },
+      "listed": true,
+      "network": [],
+      "path": "plugins/theme-paper",
+      "files": [
+        {
+          "path": "plugin.json",
+          "sha256": "7c74f4b62fb5ada475c2ffd56dc226e26b66e595b2cd3b19bb40d09e861510d3",
+          "size": 1173
+        }
+      ]
+    }
+  ]
+}
