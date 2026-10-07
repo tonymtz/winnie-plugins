@@ -92,6 +92,8 @@ line):
   you can also install from the plugin manager). Unlisted plugins cannot be
   installed this way either; remove `"listed": false` while testing.
 - `-uitestTheme <plugin-id>/<theme-id>` selects a theme at launch.
+- `-uitestPluginStore YES` switches plugins on. They are off by default: users
+  opt in by setting `PLUGIN_STORE=true` in `winnie.txt` in the app's Documents folder.
 - `-uitestFresh YES` runs with throwaway settings and plugins.
 
 These options exist only in debug builds. Release builds always use
