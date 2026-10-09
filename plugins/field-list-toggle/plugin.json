@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "id": "field-list-toggle",
+  "name": "Field List Toggle",
+  "author": "Pawapps Team",
+  "version": "1.0.0",
+  "description": {
+    "en": "Adds the Full field list switch to the tag editor, so the extra fields can be shown or hidden without opening Preferences.",
+    "es": "Añade el interruptor de Lista completa de campos al editor de etiquetas, para mostrar u ocultar los campos adicionales sin abrir Preferencias."
+  },
+  "inspector": {
+    "fullFieldListToggle": true
+  }
+}

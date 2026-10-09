@@ -4,41 +4,33 @@
   "name": "Midnight",
   "author": "Pawapps Team",
   "version": "1.0.0",
-  "icon": "moon",
-  "category": "themes",
   "description": {
     "en": "Deep indigo surfaces with a violet accent, for late-night tagging sessions.",
     "es": "Superficies índigo profundo con acento violeta, para sesiones de etiquetado nocturnas."
   },
-  "contributes": {
-    "themes": [
-      {
-        "id": "midnight",
-        "name": { "en": "Midnight", "es": "Medianoche" },
-        "light": {
-          "text": "#1E1B4B",
-          "textSecondary": "#5B5F97",
-          "surface": "#F5F5FF",
-          "surfaceRaised": "#FFFFFF",
-          "tint": "#C7C9F2",
-          "selected": "#C7C9F2",
-          "accent": "#7C3AED",
-          "accentHover": "#6D28D9",
-          "onAccent": "#FFFFFF"
-        },
-        "dark": {
-          "text": "#EEF0FF",
-          "textSecondary": "#A5A9D6",
-          "surface": "#0B0B1E",
-          "surfaceRaised": "#17173A",
-          "tint": "#8E92D8",
-          "selected": "#2E2C6E",
-          "accent": "#8B5CF6",
-          "accentHover": "#7C3AED",
-          "onAccent": "#FFFFFF",
-          "dirty": "#C4B5FD"
-        }
-      }
-    ]
+  "theme": {
+    "light": {
+      "text": "#1E1B4B",
+      "textSecondary": "#5B5F97",
+      "surface": "#F5F5FF",
+      "surfaceRaised": "#FFFFFF",
+      "tint": "#C7C9F2",
+      "selected": "#C7C9F2",
+      "accent": "#7C3AED",
+      "accentHover": "#6D28D9",
+      "onAccent": "#FFFFFF"
+    },
+    "dark": {
+      "text": "#EEF0FF",
+      "textSecondary": "#A5A9D6",
+      "surface": "#0B0B1E",
+      "surfaceRaised": "#17173A",
+      "tint": "#8E92D8",
+      "selected": "#2E2C6E",
+      "accent": "#8B5CF6",
+      "accentHover": "#7C3AED",
+      "onAccent": "#FFFFFF",
+      "dirty": "#C4B5FD"
+    }
   }
 }

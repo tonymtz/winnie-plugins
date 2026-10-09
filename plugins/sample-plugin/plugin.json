@@ -4,47 +4,8 @@
   "name": "Sample Plugin",
   "author": "Pawapps Team",
   "version": "1.0.0",
-  "icon": "puzzle",
-  "category": "batch-tools",
-  "listed": false,
   "description": {
-    "en": "A starting point for plugin authors. Not shown in the plugin manager.",
-    "es": "Un punto de partida para autores de plugins. No aparece en el gestor de plugins."
-  },
-  "main": "main.js",
-  "permissions": {
-    "network": [],
-    "sidecar": ["txt"]
-  },
-  "contributes": {
-    "actions": [
-      {
-        "id": "tidy-title",
-        "title": { "en": "Tidy Title", "es": "Ordenar título" },
-        "icon": "wand",
-        "function": "tidyTitle"
-      },
-      {
-        "id": "export-tags",
-        "title": { "en": "Export Tags", "es": "Exportar etiquetas" },
-        "icon": "download",
-        "function": "exportTags"
-      }
-    ],
-    "fields": [
-      {
-        "field": "year",
-        "control": "select",
-        "options": ["2026", "2025", "2024", "2023", "2022", "2021", "2020"]
-      }
-    ],
-    "themes": [
-      {
-        "id": "sample",
-        "name": { "en": "Sample", "es": "Ejemplo" },
-        "light": { "accent": "#0F766E", "accentHover": "#115E59" },
-        "dark": { "accent": "#14B8A6", "accentHover": "#0D9488" }
-      }
-    ]
+    "en": "An empty plugin that changes nothing. A starting point for a new one.",
+    "es": "Un plugin vacío que no cambia nada. Un punto de partida para crear uno nuevo."
   }
 }
